@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+
+/**************************
+        Universal 
+**************************/
+
+
+
+
+/**************************
+        Header
+**************************/
+
+
+
+header {
+display: flex;
+justify-content: center;
+width: 100%;
+height: 850px;
+background-image: url("header.jpg");
+background-size: cover;
+}
+
+
+.hh {
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 5em;
+    text-decoration: underline;
+    
+
+}
+
+
+/**************************
+        Header Ends
+**************************/
+
+
+/**************************
+        Content
+**************************/
+
+.about {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+
+
+.box1 {
+width: 300px;
+height: 200px; 
+border: 2px solid black;
+margin: 0 auto;
+
+
+}
+
+
+.bajs {
+    width: 300px;
+    height: 200px; 
+    border: 2px solid black;
+    margin: 0 auto;
+    
+    
+}
+.sidebar {
+  margin-bottom: 200px;
+
+
+
+}
+
+
+.hbox1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 15px;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
