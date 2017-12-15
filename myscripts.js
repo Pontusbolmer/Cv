@@ -1,36 +1,33 @@
 
 $( document ).ready(function() {
     
-
-    $(".box1").hide()
+    $(".box1").hide();
     
-    
-        $("#cool").click (function () {
-         $(".box1").show()
-            
-        });
+    $(".bajs").hide();
+
+    $("#slider").hide();
+
+    $( "#cool" ).click(function() {
+        $( ".box1" ).toggle();
+      });
 
 
-        $("#away").click(function () {
-            $(".box1").hide();
+    $( "#bajsknapp" ).click(function() {
+        $( ".bajs" ).toggle(600)
+    });
+
+
+    $("#bildknapp").click(function() {
+
         
-        });
-
-
-       $(".bajs").hide();
-
-       $("#bajsknapp").click(function () {
-            $(".bajs").show()
-
-       });
-
-
-       $("#släng").click(function () {
-            $(".bajs").hide();
-
-       });
+    });
 
     
+    
+
+        
+
+        
     
     
      
