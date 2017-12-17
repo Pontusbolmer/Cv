@@ -5,7 +5,7 @@ $( document ).ready(function() {
     
     $(".bajs").hide();
 
-    $("#slider").hide();
+    $(".fotobox").hide();
 
     $( "#cool" ).click(function() {
         $( ".box1" ).toggle();
@@ -18,9 +18,13 @@ $( document ).ready(function() {
 
 
     $("#bildknapp").click(function() {
-
+        $(".fotobox").toggle();
         
     });
+
+
+
+    
 
     
     
