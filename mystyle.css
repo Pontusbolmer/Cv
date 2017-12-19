@@ -84,13 +84,17 @@ background-size: cover;
 
 
 .box1 {
-    width: 500px;
-    height: 200px; 
-border: 2px solid black;
+width: 500px;
+height: 200px; 
+
 margin: 0 auto;
 border-radius: 25px;
 text-align: center;
 overflow: scroll;
+border: 1px solid;
+padding: 10px;
+box-shadow: 5px 10px #888888;
+
 
 }
 
@@ -98,10 +102,14 @@ overflow: scroll;
 .bajs {
     width: 500px;
     height: 200px; 
-    border: 2px solid black;
+    border: 1px solid;
+    padding: 20px;
+    box-shadow: 5px 10px #888888;
     margin: 0 auto;
     overflow: scroll;
     text-align: center;
+    border-radius: 25px;
+    
     
     
 }
@@ -121,7 +129,7 @@ overflow: scroll;
 button {
     
     
-    margin: 15px;
+    margin: 50px;
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -132,6 +140,7 @@ button {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #161616;
+    
   }
   
   button:hover {background-color: #A7F5A7}
@@ -145,13 +154,23 @@ button {
 
   .fotobox {
     width: 80%; 
-    height: 300px; 
+    height: 500px; 
     border: 2px solid black;
-    background-color: blue;
+    background-image: url("pontus.jpg");
+    background-size: cover;
     margin: 0 auto;
 
 
   }
+
+  #cool {
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+
+
+
 
 
   /**************************
@@ -180,22 +199,56 @@ color: white;
   
    
 }
-.i:hover {
-color: red;
-font-size: 20px;
+
+.fab.fa-facebook-square:hover{
+    color: blue;
+    font-size: 20px;
+  }
+  
+  /*LightBlue color for Instagram*/ 
+  .fab.fa-twitter-square:hover{
+    color: #ADD8E6; 
+    font-size: 20px;
+  }
+  
+   
+  /*Instagram Logo Dark Blue*/
+  .fab.fa-instagram:hover{
+    color:#125688;
+    font-size: 20px;
+  }
+
+
+
+
+/**************************
+        Media Query
+**************************/
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+ header,
+ #wrapper {
+  display: flex;
+  flex-wrap: wrap;
+ }
 
 }
 
 
-.fab fa-facebook-square:hover {
-    color: red;
-    font-size: 20px;
+@media screen and (max-width: 469px) and (min-width: 320px) {
+  header,
+  #wrapper {
+   display: flex;
+   flex-wrap: wrap;
+  }
+  .about {
+    font-size: 80px;
 
-} 
+  }
+  
+ 
+}
 
-
-
-
-
-
-
+/**************************
+        /Media Query
+**************************/
